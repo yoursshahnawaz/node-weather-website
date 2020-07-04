@@ -21,7 +21,10 @@ const forecast = (latitude, longitude, callback) => {
 					' degrees out.' +
 					' There is ' +
 					body.current.precip +
-					'% chance of rain'
+					'% chance of rain.' +
+					' Humidity is ' +
+					body.current.humidity +
+					'%'
 			);
 		}
 	});
