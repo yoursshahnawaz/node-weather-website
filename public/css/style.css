@@ -32,9 +32,14 @@ header a {
 	text-decoration: none;
 }
 
-header a:hover {
+a {
 	color: #333333;
-	/* font-weight: 600; */
+	text-decoration: none;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #333333;
 }
 
 .profile {
